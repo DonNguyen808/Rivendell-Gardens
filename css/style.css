@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Navigation */
+.nav-bar {
+    border: 1px solid black;
+    height: 10%;
+    width: 100%;
+    
+}
+
+/* Top */
+
+.top {
+    border: 1px solid red;
+    height: 50%;
+    width: 100%;
+}
+
+section {
+    border: 1px solid green;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.two {
+    border: 1px solid blue;
+    height: 50%;
+    width: 100%;
+
+}
+
+
+
