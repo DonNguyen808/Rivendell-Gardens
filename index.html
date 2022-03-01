@@ -4,81 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Rivendell Gardens</title>
   </head>
   <body>
     <header class="nav-bar">
       <nav>
         <ul>
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Contact Us</li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
         </ul>
       </nav>
     </header>
 
-    <section class="top">
-
+    <!-- Top  -->
+    <section class="top-container">
       <section class="logo">
-        <img src="css/Rivendell_Name.png" alt="Rivendell Gardens">
+        <img src="assets/images/Rivendell_Name.png" alt="Rivendell Gardens">
       </section>
-
-      <section class="news">
-        <section class="two">
+      <section class="news-container">
+        <section class="news">
           <h2>News</h2>
+          <p>If you have clean dirt, we would gladly take those dirt</p>
+          <p>If you are a food truck, we want you here and lets work together to make this place great</p>
+          <a href="#">Contact</a>
         </section>
-        <section class="two"></section>
+        <section class="news">
+          <h3>Garden Development</h3>
+          <p>Plans to start the garden's production by the end of this year</p>
+          <p>Just a garden you ask. It will be more than a garden with koi pond. 5 section. building with a japanese food. A special garden that is better at night with beautiful lights. inspired by japanese gardens. we want this place to become a great attraction to hangout like no other in Lake Wales.</p>
+          <p>We have beehives which means delicious honey.</p>
+        </section>
+      </section>
+    </section>
+    <!-- Nursery -->
+    <section class="nursery-container">
+      <section class="nursery">
+        <h2>Nursery List</h2>
+        <p>Plants such as sugar apples, lychee, longan, mangos, avocados, bamboo, passion fruits, dragon fruits</p>
+        <p>Receives these from Miami and California</p>
+
+  
+        <button id="plantButton">Show Plant</button>
+        <h3 id="showPlant">Hi</h3>
+        <section class="nurseryList">
+          <table>
+            <caption>Available Plants</caption>
+            <tr>
+                <td>Avocado Catalina</td>
+                <td>In Stock</td>
+                <td>Height</td>
+                <td>$25</td>
+              </tr>
+              <tr>
+                <td>A Project Guide to UX Design by Russ Unger &#38; Carolyn Chandler</td>
+                <td>In Stock</td>
+                <td>2</td>
+              </tr>
+          </table> 
+        </section>
+      </section>
+    </section>
+    <!-- About -->
+    <section class="about-container">
+      <section class="about">
+        <h2>About Us</h2>
+        <p>Covin's future vision to bring a great atmosphere to Lake Wales. We are Vietnamese American. Inspired by Japanese culture and love the series Lord of the Rings which you will notice parts of our land is named after. Come from a background and career in technology. Not a easy task working both a fulltime job and working on the land as a farmer.</p>
       </section>
 
     </section>
+    <!-- Contact -->
+    <section class="contact-container">
+      <!-- <h2>Contact Us</h2> -->
+      <section class="location">
+        <h3>Location</h3>
+        <p>We are available in Lake Wales and Riverview Florida.</p>
+      </section>
+      <section class="purchase">
+        <h3>Purchase</h3>
+        <p>Please email us the trees you would like to purchase and the locations you would like to pick them up. Our nursery in Lake Wales is currently not open to the public, but will be coming soon.</p>
+      </section>
+      <section class="email">
+        <h3>Email</h3>
+        <span>RivendellGardensFlorida@gmail.com</span>
+        <span><a href="https://www.facebook.com/RivendellGardensFlorida/">https://www.facebook.com/RivendellGardensFlorida/</a></span>
+      </section>
+    </section>
+  
 
-    <section class="bottom"></section>
-    
-    
-
-
+    <script src="js/main.js"></script>
   </body>
 </html>
 
+<!-- put all in one page
+  look at other layout ideas
+  thinking in terms of business and what the people want
+nav bar can scroll to that position
+how to structure everything container first or element side by side in css
+look in notes for content pictures
+manually add plants then put in db and javascript
+-->
 
  
 
-         <!-- News page 
-        <section>
-            <h1>News</h1>
-            <p>Covered our 20 sugar apples from the cold</p>
-            <p>Covin is clearing more trees</p>
-            <p>Planted more sugar apples</p>
-            <p>Water pipes</p>
-        </section>
 
-        Plant listing--> -->
-       <!-- <table>
-        <caption>Available Plants</caption>
-        <tr>
-            <td>Don&#8217;t Make Me Think by Steve Krug</td>
-            <td>In Stock</td>
-            <td>1</td>
-            <td>$30.02</td>
-          </tr>
-          <tr>
-            <td>A Project Guide to UX Design by Russ Unger &#38; Carolyn Chandler</td>
-            <td>In Stock</td>
-            <td>2</td>
-            <td>$52.94 ($26.47 &#215; 2)</td>
-          </tr>
-          <tr>
-            <td>Introducing HTML5 by Bruce Lawson &#38; Remy Sharp</td>
-            <td>Out of Stock</td>
-            <td>1</td>
-            <td>$22.23</td>
-          </tr>
-          <tr>
-            <td>Bulletproof Web Design by Dan Cederholm</td>
-            <td>In Stock</td>
-            <td>1</td>
-            <td>$30.17</td>
-          </tr>
-       </table>  --> 
+ 
