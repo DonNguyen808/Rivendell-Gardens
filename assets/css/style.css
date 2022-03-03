@@ -70,6 +70,7 @@ img {
     height: 50%;
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 .nurseryList {
@@ -77,6 +78,10 @@ img {
     height: 100%;
     width: 50%;
     margin-left: 300px;
+}
+
+.nurseryList img {
+    width: 50%;
 }
 
 /* About */
