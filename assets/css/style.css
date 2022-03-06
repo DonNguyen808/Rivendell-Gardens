@@ -7,6 +7,10 @@ html, body {
     width: 100%;
 }
 
+a:hover {
+    color: orange;
+}
+
 /* Navigation */
 .nav-bar {
     border: 1px solid black;
