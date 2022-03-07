@@ -98,8 +98,33 @@ img {
 
 .about {
     border: 1px solid salmon;
-    height: 100%;
+    height: 50%;
     width: 100%;
+}
+
+.futurePlansContainer {
+    border: 1px solid beige;
+    height: 50%;
+    width: 100%;
+}
+
+.phaseOne {
+    border: 1px solid chocolate;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+.phaseTwo {
+    border: 1px solid chocolate;
+    width: 33.33%;
+    height: 100%;
+    float: left;
+}
+.phaseThree {
+    border: 1px solid chocolate;
+    width: 33.33%;
+    height: 100%;
+    float: left;
 }
 
 
