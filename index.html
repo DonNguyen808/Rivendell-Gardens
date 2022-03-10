@@ -1,132 +1,296 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rivendell Gardens</title>
-  </head>
-  <body>
-    <header class="nav-bar">
-      <nav>
-        <ul>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-      </nav>
-    </header>
-
-    <!-- Top  -->
-    <section class="top-container">
-      <section class="logo">
-        <img src="assets/images/Rivendell_Name.png" alt="Rivendell Gardens">
-      </section>
-      <section class="news-container">
-        <section class="news">
-          <h2>News</h2>
-          <p>If you have clean dirt, we will take them for free</p>
-          <p>If you are a food truck, we want you here and lets work together to make this place great</p>
-          <p>We plan on bringing the delicious boba tea here with flavors such as avocado and taro smoothie</p>
-          <p>Serving Teriyaki chicken</p>
-          <a href="#">Contact</a>
-        </section>
-        <section class="news">
-          <h3>Garden Development</h3>
-          <p>Plans to start the garden's production by the end of this year</p>
-          <p>Just a garden you ask. Everyone will be able to tour the garden for free come by and visit us. It will be more than a garden with koi pond. 5 section. building with a japanese food. A special garden that is better at night with beautiful lights. inspired by japanese gardens. we want this place to become a great attraction to hangout like no other in Lake Wales.</p>
-          <p>We have beehives which means delicious honey. 5 dollars a jar</p>
-          <p>Special events can be held here such as weddings and other events</p>
-          <p>On weekends, we want a nightlife similar vibe to tokyo night lights where people can hang out and have a good time </p>
-          <p>cabin village</p>
-        </section>
-      </section>
-    </section>
-    <!-- Nursery -->
-    <section class="nursery-container">
-      <section class="nursery">
-        <h2>Nursery List</h2>
-        <p>Plants such as sugar apples, lychee, longan, mangos, avocados, bamboo, passion fruits, dragon fruits</p>
-        <p>Receives these from Miami and California</p>
-
-  
-        <button id="plantButton">Show Plant</button>
-        <h3 id="showPlant">Hi</h3>
-        <section class="nurseryList">
-          <table>
-            <caption>Available Plants</caption>
-            <tr>
-                <td>Avocado Catalina</td>
-                <td>In Stock</td>
-                <td>Height</td>
-                <td>$25</td>
-              </tr>
-              <img src="assets/images/plants/glenn_mango.jpg" alt="Glenn Mango">
-          </table> 
-        </section>
-      </section>
-    </section>
-    <!-- About -->
-    <section class="about-container">
-      <section class="about">
-        <h2>About Us</h2>
-        <p>Covin's future vision to bring a great atmosphere to Lake Wales. We are Vietnamese American. Inspired by Japanese culture and love the series Lord of the Rings which you will notice parts of our land is named after. Come from a background and career in technology. Not a easy task working both a fulltime job and working on the land as a farmer. The land was first purchased back in 2017. Struggles with vacants trespassing and dealing with the trash. This place was a spot people would dump garbage.</p>
-        <p>Rivendell Gardens is a dream of ours. We love nature and protecting the environment. We want to grow trees that not only provide oxygen, shade, aesthetic beauty, but also produce delicious edible fruits. Currently we are planting fruit trees on our farm and we are in the process of preparing a tropical fruit trees nursery which will be opened to the public on Saturday and Sundays (coming soon). We do sell our grafted fruit trees from Riverview and Lake Wales. Just email us and you can come by to pick them up. Our fruit trees are grafted or air layered. Some have fruits already and others will fruit within 1-2 years. Our goal is to share the exotic trees and fruits to everyone at a great price. Soon we will build a Japanese Garden with Koi ponds where you all can tour and enjoy it as much as we do.</p>
-      </section>
-      <section class="futurePlansContainer">
-        <section class="phaseOne">
-          <h3>Phase One</h3>
-          <p>Plant all our fruit trees</p>
-        </section>
-        <section class="phaseTwo">
-          <h3>Phase Two</h3>
-          <p>Build our koi fish garden</p>
-        </section>
-        <section class="phaseThree">
-          <h3>Phase Three</h3>
-          <p>Have the look and feel of the Tokyo night lights</p>
-          <img src="assets/images/tokyo-night-lights.jpg" alt="Tokyo Night Lights">
-        </section>
-
-      </section>
-
-    </section>
-    <!-- Contact -->
-    <section class="contact-container">
-      <!-- <h2>Contact Us</h2> -->
-      <section class="location">
-        <h3>Location</h3>
-        <p>We are available in Lake Wales and Riverview Florida.</p>
-      </section>
-      <section class="purchase">
-        <h3>Purchase</h3>
-        <p>Please email us the trees you would like to purchase and the location you would like to pick them up. Our nursery in Lake Wales is currently not open to the public, but will be coming soon.</p>
-      </section>
-      <section class="email">
-        <h3>Email</h3>
-        <p>The best way to reach us is through our email.</p>
-        <span>RivendellGardensFlorida@gmail.com</span>
-        <span><a href="https://www.facebook.com/RivendellGardensFlorida/">https://www.facebook.com/RivendellGardensFlorida/</a></span>
-        <p>twitter and instagram coming soon</p>
-      </section>
-    </section>
-  
-
-    <script src="js/main.js"></script>
-  </body>
-</html>
-
-<!-- put all in one page
-  look at other layout ideas
-  thinking in terms of business and what the people want
-nav bar can scroll to that position
-how to structure everything container first or element side by side in css
-look in notes for content pictures
-manually add plants then put in db and javascript
+<!DOCTYPE HTML>
+<!--
+	Story by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<html>
+	<head>
+		<title>Story by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
- 
+		<!-- <header>
+			<nav>
+				<ul>
+					<li><a href="#first" class="button big wide smooth-scroll-middle">Koi Fish</a></li>
+					<li><a href="#second" class="button big wide smooth-scroll-middle">Garden</a></li>
+					<li><a href="#third" class="button big wide smooth-scroll-middle">Fruit Trees</a></li>
+					<li><a href="#" class="button big wide smooth-scroll-middle">Contact</a></li>
+				</ul>
+			</nav>
+		</header> -->
 
+		<!-- Wrapper -->
+			<div id="wrapper" class="divided">
 
- 
+				<!-- One -->
+					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
+						<div class="content">
+							<h1>Welcome to Rivendell Gardens</h1>
+							<p class="major">Inspired by Japanese culture. We hope to bring a unique and amazing atmosphere for everyone to experience. Located in the city of Lake Wales Florida</p>
+							<ul class="actions stacked">
+								<li><a href="#first" class="button big wide smooth-scroll-middle">Get Started</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/japanese-garden.jpg" alt="Rivendell Gardens" />
+						</div>
+					</section>
+
+				<!-- Two -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="first">
+						<div class="content">
+							<h2>Our main attraction is the koi fish pond</h2>
+							<p>These koi fishes were imported over from Japan and they circle all around the garden. You can feed them and enjoy their company in this nice and relaxing atmosphere</p>
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/koi-fish-pond.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section class="spotlight style1 orient-left content-align-left image-position-center onscroll-image-fade-in" id="second">
+						<div class="content">
+							<h2>Our Garden is free to tour</h2>
+							<p>Before you reach to the koi fish pond, you first have to get through the garden. You are able to enjoy a nice walk throughout our garden that is split into 5 sections. The real magic starts when it gets darker and our beautiful lights completely changes and enhances the atmosphere.</p>
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/garden.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Four -->
+					<section class="spotlight style1 orient-right content-align-left image-position-center onscroll-image-fade-in" id="third">
+						<div class="content">
+							<h2>We also provide fruits and fruit trees</h2>
+							<p>Before we built our amazing garden for people to enjoy. We have over a thousand fruit trees planted with many variety of fruits to pick from all year round. Schedule a time and day to come out and pick your own fruits in this fun activity. You will be able to purchase not only fruits, but also your very own fruit tree if you desire one in your backyard. All trees are air layered and grafted which will fruit in 1 to 2 years.</p>
+							<ul class="actions stacked">
+								<li><a href="#" class="button">Learn More</a></li>
+							</ul>
+						</div>
+						<div class="image">
+							<img src="images/fruit-trees.jpg" alt="" />
+						</div>
+					</section>
+
+				<!-- Five -->
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>What fruit trees do we have?</h2>
+							<p>Look through our selection of all the fruits we currently have available.</p>
+						</div>
+
+						<!-- Gallery -->
+							<div class="gallery style2 medium lightbox onscroll-fade-in">
+								<article>
+									<a href="images/sugar-apples.jpg" class="image">
+										<img src="images/sugar-apples.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Sugar Apples</h3>
+										<p>The sugar apple tree varies in height from 10-20 feet (3-6 m.) with an open habit of irregular, zigzagging twigs.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/lychee.jpg" class="image">
+										<img src="images/lychee.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Lychee</h3>
+										<p>A small, easy to peel tropical fruit with a sweet, floral flavor.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/dragon-fruit.jpg" class="image">
+										<img src="images/dragon-fruit.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Dragon Fruit</h3>
+										<p>Imported from California. Dragon fruit is juicy with a slightly sweet taste that some describe as a cross between a kiwi, a pear, and a watermelon.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/coconut-dwarf.jpg" class="image">
+										<img src="images/coconut-dwarf.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Dwarf Coconut Tree</h3>
+										<p>These dwarf coconut trees don't grow as tall as a normal coconut tree which makes it significantly much easier to pick from.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/guava.jpg" class="image">
+										<img src="images/guava.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Guava</h3>
+										<p>Guava is a tropical fruit that is round to pear-shaped that contains edible seeds.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+								<article>
+									<a href="images/jackfruit.jpg" class="image">
+										<img src="images/jackfruit.jpg" alt="" />
+									</a>
+									<div class="caption">
+										<h3>Jackfruit</h3>
+										<p>It has a fairly neutral taste when young, so it takes on the flavor of whatever sauce or seasoning you pair it with.</p>
+										<ul class="actions fixed">
+											<li><span class="button small">Details</span></li>
+										</ul>
+									</div>
+								</article>
+
+							</div>
+
+					</section>
+
+				<!-- Six
+					<section class="wrapper style1 align-center">
+						<div class="inner">
+							<h2>Ipsum sed consequat</h2>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi id ante sed ex pharetra lacinia sit amet vel massa. Donec facilisis laoreet nulla eu bibendum. Donec ut ex risus. Fusce lorem lectus, pharetra pretium massa et, hendrerit vestibulum odio lorem ipsum.</p>
+							<div class="items style1 medium onscroll-fade-in">
+								<section>
+									<span class="icon style2 major fa-gem"></span>
+									<h3>Lorem</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-save"></span>
+									<h3>Ipsum</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-chart-bar"></span>
+									<h3>Dolor</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-wifi"></span>
+									<h3>Amet</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-cog"></span>
+									<h3>Magna</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon style2 major fa-paper-plane"></span>
+									<h3>Tempus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-desktop"></span>
+									<h3>Aliquam</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-sync-alt"></span>
+									<h3>Elit</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-hashtag"></span>
+									<h3>Morbi</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-bolt"></span>
+									<h3>Turpis</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-envelope"></span>
+									<h3>Ultrices</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+								<section>
+									<span class="icon solid style2 major fa-leaf"></span>
+									<h3>Risus</h3>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dui turpis, cursus eget orci amet aliquam congue semper. Etiam eget ultrices risus nec tempor elit.</p>
+								</section>
+							</div>
+						</div>
+					</section> -->
+
+				<!-- Seven -->
+					<!-- <section class="wrapper style1 align-center">
+						<div class="inner medium">
+							<h2>Get in touch</h2>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field half">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" value="" />
+									</div>
+									<div class="field half">
+										<label for="email">Email</label>
+										<input type="email" name="email" id="email" value="" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="6"></textarea>
+									</div>
+								</div>
+								<ul class="actions special">
+									<li><input type="submit" name="submit" id="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+
+						</div>
+					</section> -->
+
+				<!-- Footer -->
+					<footer class="wrapper style1 align-center">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+								<!-- <li><a href="#" class="icon brands style2 fa-linkedin-in"><span class="label">LinkedIn</span></a></li> -->
+								<li><a href="#" class="icon style2 fa-envelope"><span class="label">Email</span></a></li>
+							</ul>
+							<p>&copy; Don Nguyen | Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
