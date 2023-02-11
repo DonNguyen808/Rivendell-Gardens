@@ -1,0 +1,40 @@
+* {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+}
+
+.flag-container {
+    display: flex;
+}
+
+.flag-container div {
+    margin: auto;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Modify the background color */
+    
+.navbar-custom {
+    background-color: lightgreen;
+}
+/* Modify brand and text color */
+    
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: green;
+}
+
+section {
+    border: 5px solid lightgreen;
+}
+
